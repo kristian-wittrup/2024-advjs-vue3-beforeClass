@@ -22,7 +22,7 @@ const firebaseConfig = {
   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
   appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
-
+console.log('Firebase API Key:', import.meta.env.VITE_FIREBASE_API_KEY);
 // Step 2: Define Firebase configuration
 // const firebaseConfig = {
 //   apiKey: "AIzaSyB1-wNwR9I8Q41XTcEs7kDhI07E_5dpw0U",
