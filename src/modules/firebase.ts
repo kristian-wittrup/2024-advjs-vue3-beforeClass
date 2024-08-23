@@ -23,15 +23,7 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 console.log('Firebase API Key:', import.meta.env.VITE_FIREBASE_API_KEY);
-// Step 2: Define Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyB1-wNwR9I8Q41XTcEs7kDhI07E_5dpw0U",
-//   authDomain: "vue-crud-inclass.firebaseapp.com",
-//   projectId: "vue-crud-inclass",
-//   storageBucket: "vue-crud-inclass.appspot.com",
-//   messagingSenderId: "802036065562",
-//   appId: "1:802036065562:web:38d4263f858a20d63438a3"
-// };
+
 
 // Step 3: Initialize Firebase
 const app = initializeApp(firebaseConfig);
